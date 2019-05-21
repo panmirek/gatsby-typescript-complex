@@ -16,7 +16,9 @@
     "gatsby-transformer-sharp": "^2.1.19",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.2.0",
+    "styled-components-ts": "^0.0.15"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
@@ -26,6 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^1.0.0",
     "@typescript-eslint/parser": "^1.9.0",
     "babel-jest": "^24.8.0",
+    "babel-plugin-styled-components": "^1.10.0",
     "babel-preset-gatsby": "^0.1.11",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-typescript": "^4.0.0",
@@ -34,9 +37,12 @@
     "eslint-plugin-jest": "^22.5.1",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.0",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-plugin-styled-components": "^3.0.7",
     "husky": "^2.3.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.8.0",
+    "jest-styled-components": "^6.3.1",
     "lint-staged": "^8.1.7",
     "prettier": "^1.17.1",
     "react-test-renderer": "^16.8.6",
@@ -46,7 +52,8 @@
     "stylelint-processor-styled-components": "^1.7.0",
     "stylelint-webpack-plugin": "^0.10.5",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.4.5"
+    "typescript": "^3.4.5",
+    "typescript-plugin-styled-components": "^1.4.3"
   },
   "keywords": [
     "gatsby",
