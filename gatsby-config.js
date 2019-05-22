@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `GatsbyJS Typescript complex starter`,
+    description: `This is a complex GatsbyJS configuration. It's prepared for TypeScript and it's fully integrated with: eslint, stylelint, prettier, styled-components, root imports, commit hooks (husky) and jest. Tested with WebStorm v.2019.1.2 & VS Code v.1.34.0`,
+    author: `@panmirek`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `GatsbyJS Typescript complex starter`,
+        short_name: `gatsby-typescript-complex`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -28,8 +28,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
